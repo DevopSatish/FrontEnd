@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IoT Intrusion Detection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>IoT Intrusion Detection</h1>
+    <p class="intro">
+      The proliferation of Internet of Things (IoT) devices has ushered in a new era of technological ubiquity enhancing convenience and efficiency across a wide array of applications. From smart home appliances to autonomous vehicles and military-grade drones, these devices provide seamless real-time access to information, revolutionizing data collection and processing. However, this technological paradigm also introduces vulnerabilities to cyber threats and this surge in connectivity to a burgeoning wave of cyber threats particularly from malicious actors seeking unauthorized access to sensitive information.
+    </p>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" id="fileInput" name="fileInput">
+      <button type="submit" id="uploadBtn">Upload</button>
+    </form>
+    <div id="fileName" style="display:none;"></div>
+    <button id="proceedBtn" style="display:none;">Proceed</button>
+    <p class="note">Note: After uploading a file, click "Proceed" to view random text.</p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
